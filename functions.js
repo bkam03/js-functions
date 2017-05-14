@@ -91,6 +91,18 @@ var square = function(x){
  * @return {number} the result
  */
 
+var calculate = function(str,x,y){
+  var operator = "";
+  var result = null;
+  switch(str) {
+    case "add":
+      operator = "+";
+      result = x + y;
+      break;
+    case "subtract":
+
+  }
+};
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -99,6 +111,9 @@ var square = function(x){
  * @return {boolean} `a` is larger than `b`
  */
 
+var isGreaterThan=function(a,b){
+  return (a>b);
+};
 
 /**
  * Returns true if `a` is less than `b`.
