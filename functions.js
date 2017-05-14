@@ -13,6 +13,9 @@ var numberToString = function(num){
  * @return {number}
  */
 
+var increase = function(num){
+  return ++num;
+};
 
 /**
  * Subtracts one from a given number.
