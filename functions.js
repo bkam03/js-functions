@@ -96,12 +96,26 @@ var calculate = function(str,x,y){
   var result = null;
   switch(str) {
     case "add":
-      operator = "+";
+      operator = " + ";
       result = x + y;
       break;
     case "subtract":
-
+      operator = " - ";
+      result = x - y;
+      break;
+    case "multiply":
+      operator = " * ";
+      result = x * y;
+      break;
+    case "divide":
+      operator = " / ";
+      result = x / y;
+      break;
+    default:
+      break;
   }
+  console.log(x + operator + y + " = " + result);
+  return result;
 };
 
 /**
