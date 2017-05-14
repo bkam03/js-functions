@@ -136,6 +136,9 @@ var isGreaterThan=function(a,b){
  * @return {boolean} `a` is smaller than `b`
  */
 
+var isLessThan = function(a,b){
+  return a < b;
+};
 
 /**
  * Returns true if `a` and `b` are equal.
