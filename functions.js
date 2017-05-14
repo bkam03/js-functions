@@ -147,6 +147,9 @@ var isLessThan = function(a,b){
  * @return {boolean} the numbers are equal
  */
 
+var areEqual = function(a,b){
+  return a === b;
+};
 
 /**
  * Returns the smallest value of two numbers.
