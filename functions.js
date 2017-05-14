@@ -247,6 +247,14 @@ var letterGrade = function(score,total){
  * @return {object} restaurant
  */
 
+var incrementReviews = function(restaurantObj){
+  if (restaurantObj.hasOwnProperty("reviews")){
+    restaurantObj.reviews += 1;
+  } else {
+    restaurantObj.reviews = 1;
+  }
+  return restaurantObj;
+};
 
 /**
  * Joins two strings with a space.
