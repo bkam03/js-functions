@@ -34,6 +34,9 @@ var decrease = function(num){
  * @return {number} the sum
  */
 
+var add = function(x,y){
+  return x + y;
+};
 
 /**
  * Subtracts the second number from the first.
