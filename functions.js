@@ -201,6 +201,13 @@ var isEven = function(n){
  * @return {boolean} the number is odd
  */
 
+var isOdd = function(n){
+  if(n % 2 === 1 || n % 2 === -1) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 /**
  * Returns a letter grade.
