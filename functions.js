@@ -220,7 +220,24 @@ var isOdd = function(n){
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
-
+var letterGrade = function(score,total){
+  var grade = "";
+  var percent = score/total * 100;
+  if(percent >= 90) {
+    grade = "A";
+  } else if(percent >= 80){
+    grade = "B";
+  } else if(percent >= 70){
+    grade = "C";
+  } else if(percent >= 60){
+    grade = "D";
+  } else if(percent >= 0){
+    grade = "F";
+  } else {
+    grade ="Invalid";
+  }
+  return grade;
+};
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
