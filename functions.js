@@ -187,6 +187,13 @@ var maximum = function(x,y){
  * @return {boolean} the number is even
  */
 
+var isEven = function(n){
+  if(n%2 === 0){
+    return true;
+  }else {
+    return false;
+  }
+};
 
 /**
  * Returns true if `n` is odd.
