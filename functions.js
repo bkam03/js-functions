@@ -263,6 +263,10 @@ var incrementReviews = function(restaurantObj){
  * @return {string} joined the words joined with a space
  */
 
+var combine = function(word1,word2){
+  var string = word1.concat(" ",word2);
+  return string;
+};
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.
