@@ -77,6 +77,10 @@ var divide = function(x,y){
  * @return {number} squared
  */
 
+var square = function(x){
+  var square = x * x;
+  return square;
+};
 
 /**
  * Performs a mathematical operation on two numbers.
