@@ -158,6 +158,13 @@ var areEqual = function(a,b){
  * @return {number} the smallest number
  */
 
+var minimum = function(x,y){
+  if(x < y) {
+    return x;
+  } else {
+    return y;
+  }
+};
 
 /**
  * Returns the largest value of two numbers.
