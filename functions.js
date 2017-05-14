@@ -23,6 +23,9 @@ var increase = function(num){
  * @return {number}
  */
 
+var decrease = function(num){
+  return --num;
+};
 
 /**
  * Adds two numbers.
